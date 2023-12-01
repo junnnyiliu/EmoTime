@@ -117,3 +117,8 @@ module.exports = {
     }
   },
 };
+
+
+Your application looks sweet and well-structured! Here are some suggestions to enhance it:
+1. You have repetitive checks like if (!req.session.login || !isEmployee(req)). Consider creating a middleware to handle these checks to reduce redundancy.
+2. You can also implement a global error-handling middleware.
